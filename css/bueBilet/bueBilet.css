@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+a {
+  color: #fff; /* Цвет ссылки */
+  text-decoration: none !important;
+  padding-left: 20px;
+}
+
+
+
+.main {
+  display: flex;
+}
+
+.mainForm{
+    width: 430px;
+    height: 100vb;
+    padding-top: 30px;
+}
+
+.main-form {
+  position: relative;
+}
+
+.main-form__container {
+display: grid;
+  width: 420px;
+  height: 400px;
+  background: rgba(40, 49, 73, 1);
+  border-radius: 19px;
+}
+
+.main-input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.main-input__fromwhere {
+  margin-top: 3%;
+  position: relative;
+  max-width: 393px;
+  max-height: 73px;
+  padding-top: 15px;
+  padding-left: 38px;
+  padding-bottom: 15px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  background-color: #dbedf3;
+  font-family: Eurostile;
+  font-weight: Regular;
+  font-size: 25px;
+}
+
+.main-input__towhere {
+  position: relative;
+  max-width: 393px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 38px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  background-color: #dbedf3;
+  font-family: Eurostile;
+  font-weight: Regular;
+  font-size: 25px;
+}
+
+.main-input__text {
+  margin-top: 5%;
+  width: 309px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Eurostile Extd;
+  font-weight: Regular;
+  font-size: 20px;
+}
+
+.main-input__time {
+  margin-top: 5%;
+  position: relative;
+  max-width: 393px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 38px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  background-color: #dbedf3;
+  font-family: Eurostile;
+  font-weight: Regular;
+  font-size: 25px;
+}
+
+.main-input__button {
+  margin-top: 3%;
+  max-width: 393px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  background-color: #f73859;
+  font-family: Eurostile;
+  font-weight: Regular;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.main-text {
+  position: relative;
+  margin-left: 4%;
+  margin-top: 4%;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 0px 19px rgba(0, 0, 0, 1);
+  font-family: Eurostile Extd;
+  font-weight: Medium;
+  font-size: 48px;
+}
+
+.main-block__info--text {
+  width: 136px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+
+  font-family: Eurostile Extd;
+  font-weight: Regular;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+.header-menu {
+  width: 100%;
+  height: 80px;
+  background: rgba(40, 49, 73, 1);
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-menu__logo--text {
+  width: 650px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Eurostile Extd;
+  font-weight: Regular;
+  font-size: 20px;
+}
+
+.header-menu__text {
+  width: 120px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Eurostile Extd;
+  font-weight: Regular;
+  font-size: 20px;
+  gap: ;
+}
+
+.header-menu__burger {
+  display: none;
+}
+
+.header-menuDesctop {
+  display: flex;
+  gap: 20px;
+}
+
+.header-menuMobile {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+
+
+
+.mainSite {
+    padding: 50px;
+  
+}
+
+.mainCenter{
+    position: absolute;
+    display: grid;
+    grid-column: 2;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  /* Пример стилей для ячеек таблицы */
+  .grid-item {
+    /* border: 1px solid black; */
+    padding: 10px;
+   
+  }
+
+  .formBilet{
+    max-width: 1200px;
+    width: 100%;
+    height: 230px;
+    background-color: #DBEDF3;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 11fr 1fr 7fr;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+
+  .formBilet--info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .formBilet--info__left p{
+    font-family: Eurostile;
+  }
+
+  .formBilet--info__center{
+    
+  }
+
+  .formBilet--line{
+    width: 1px;
+    height: 200px;
+    border: 1px solid #000;
+  }
+
+
+  .formBilet--place{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+
+.footer {
+  width: 100%;
+  height: 343px;
+  background: rgba(40, 49, 73, 1);
+  opacity: 1;
+  position: relative;
+  margin-top: 175px;
+  display: flex;
+}
+
+.footer-company {
+  padding: 70px;
+}
+
+.feedback {
+  padding: 70px;
+}
+
+.footer-title {
+  color: #fff;
+  font-family: Eurostile Extd;
+  font-size: 36px;
+}
+
+.footer-array {
+  color: #fff;
+  font-family: Eurostile Extd;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.maps {
+  margin-top: -130px;
+  margin-left: 70px;
+}
+
+.maps .footer-title {
+  margin-top: 15px;
+}
+
+.footText {
+  display: flex;
+}
+
+@media screen and (max-width: 1025px) {
+
+    .sidebarmenu.active {
+      transform: translateX(320px);
+      transition: 2s;
+      box-shadow: 0 0 0 0;
+    }
+    
+    .sidebarmenu:not(:active) {
+      transition: 1s;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+  .header-menuDesctop{
+    display: none;
+  }
+  
+  .header-menu {
+    display: flex;  
+  }
+  
+  .header-menuMobile{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .header-menu__burger{
+    display: flex;
+  }
+  
+  
+
+  .mainSite{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  
+    .main-form{
+      display: flex;
+      justify-content: center;
+    }
+
+.main-form__container{
+  
+    
+}
+   
+  
+   .footText{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .footer {
+    width: 100%;
+    height: 520px;
+    background: rgba(40,49,73,1);
+    opacity: 1;
+    position: relative;
+    margin-top: 175px;
+    display: flex;
+   
+  }
+  
+  
+  .footer-company{
+    padding: 30px;
+   }
+  
+   .feedback{
+    padding: 30px;
+  }
+  
+  
+  .maps-img{
+    width: 300px !important;
+  }
+  }
+
+  @media screen and (max-width: 769px){
+  .formBilet{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr, 1fr;
+    align-items: center;
+  }
+  .formBilet--info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+  
+  .formBilet--line{
+    width: 200px;
+    height: 1px;
+    border: 1px solid #000;
+    justify-self: center;
+  }
+
+  .grid-item {
+    justify-self: center;
+}
+.formBilet--info__left{
+    display: flex;
+    gap: 10px;
+}
+
+}
+  
+  @media screen and (max-width: 426px){
+    .footer{
+      margin-top: 400px;
+      display: flex;
+      flex-direction: column-reverse;
+      height: 660px;
+    }
+  .header-menu__logo--text{
+    display: none;
+  }
+  
+  .main-input__button{
+    width: 330px;
+  }
+}
